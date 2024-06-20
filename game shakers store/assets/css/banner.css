@@ -1,0 +1,62 @@
+/* contem todo o css do banner da pagina principal */
+
+.banner {
+  align-items: flex-end;
+  background: url(../img/banner-image.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  height: 352px;
+}
+
+.banner__conteudo {
+    padding: 4% 4%;
+    width: 100%;
+}
+
+.banner__conteudo_titulo {
+  color: #ffffff;
+  font-size: 52px;
+  margin: 0;
+}
+
+.banner__conteudo_subtitulo {
+  color: #ffffff;
+  font-size: 22px;
+  padding: 16px 0;
+  margin: 0;
+}
+
+.banner__conteudo_btn {
+  background: #200092;
+  border-style: none;
+  height: 51px;
+  width: 130px;
+}
+
+.banner__conteudo_botao {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*SMALL VIEWPORTS*/
+
+@media screen and (max-width: 767px) {
+  .banner{
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  .banner__conteudo_titulo {
+    font-size: 22px;
+  }
+  
+  .banner__conteudo_subtitulo {
+    font-size: 14px;
+  }
+
+  .banner__conteudo_btn {
+    width: 119px;
+  }
+
+
+}

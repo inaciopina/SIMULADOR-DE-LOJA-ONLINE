@@ -1,0 +1,67 @@
+/* contem o css da pagina de login */
+
+main {
+  background: #e5e5e5;
+}
+
+.login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 291px;
+  justify-content: space-between;
+  margin: 92px 0;
+}
+
+.login__texto {
+  color: #464646;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.login__email,
+.login__senha {
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+  border-bottom: 1px solid #c8c8c8;
+  font-weight: 400;
+  font-size: 16px;
+  height: 63px;
+  padding-left: 1em;
+  width: 423px;
+}
+
+.login__email::placeholder,
+.login__senha::placeholder {
+  color: #a2a2a2;
+  font-weight: 400;
+}
+
+.login__btn {
+  background: #200092;
+  border: none;
+  height: 62px;
+  padding: 0;
+  width: 441px;
+}
+
+.login__botao {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*SMALL VIEWPORTS*/
+
+@media screen and (max-width: 767px) {
+  .login__email,
+  .login__senha {
+    width: 330px;
+  }
+
+  .login__btn {
+    width: 349px;
+  }
+}
